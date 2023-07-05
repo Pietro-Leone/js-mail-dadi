@@ -15,6 +15,7 @@ btnLogin.addEventListener("click", function () {
             console.log("La mail inserita è corretta!");
             body.style.backgroundColor = "#198754";
             alert("La mail inserita è corretta!")
+            i = allowedEmail.length - 1;
         }
         else if (i === allowedEmail.length - 1) {
             console.log("la mail inserita è sbagliata");
